@@ -42,7 +42,7 @@ client = gspread.authorize(creds)
 
 # ⚠️ अपनी गूगल शीट की ID यहाँ दोबारा डालना न भूलें
 
-spreadsheet_id = "यहाँ_अपनी_शीट_की_ID_डालें" 
+spreadsheet_id = "1g3y6Jn7OH3FXRDG0RMM9ZxX7pc9zkswSW8ynCYsv2TM" 
 
 worksheet = client.open_by_key(spreadsheet_id).worksheet("Top 250 Stocks")पेनी स्टॉक
 
